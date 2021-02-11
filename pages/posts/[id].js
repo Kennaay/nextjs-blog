@@ -1,8 +1,8 @@
-import Layout from 'C:/Users/twahl/nextjs-blog/components/layout'
-import { getAllPostIds, getPostData } from 'C:/Users/twahl/nextjs-blog/lib/posts'
+import Layout from '../../components/layout'
+import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
-import Date from 'C:/Users/twahl/nextjs-blog/components/date'
-import utilStyles from 'C:/Users/twahl/nextjs-blog/styles/utils.module.css'
+import Date from '../../components/date'
+import utilStyles from '../../styles/utils.module.css'
 
 export default function Post({ postData }) {
   return (

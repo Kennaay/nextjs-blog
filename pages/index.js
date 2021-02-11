@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.greenText}`}>
         <p>Hello! I am Travis Wahl and I am a CS Student at Xavier University.  I have a Bachelor's Degree in Marine Biology and am now working on my second one in Computer Science.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
